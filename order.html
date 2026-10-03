@@ -24,6 +24,77 @@
   <button onclick="location.href='gifts.html'">Shop Special Gifts</button>
 </section>
 
+<main>
+  <!-- Order Form -->
+  <section class="order-form">
+    <h2>Place Your Order</h2>
+    <form action="#" method="post">
+      <h3>Customer Details</h3>
+      <label>Name: <input type="text" name="name" required></label><br>
+      <label>Email: <input type="email" name="email" required></label><br>
+      <label>Phone: <input type="tel" name="phone" required></label><br>
+
+      <h3>Delivery Details</h3>
+      <label>Address: <input type="text" name="address" required></label><br>
+      <label>City: <input type="text" name="city" required></label><br>
+      <label>Preferred Delivery Date: <input type="date" name="delivery_date" required></label><br>
+      <label>Preferred Time: <input type="time" name="delivery_time"></label><br>
+
+      <h3>Product Selection</h3>
+      <label><input type="checkbox" name="product" value="flowers"> Flowers</label><br>
+      <label><input type="checkbox" name="product" value="plants"> Plants</label><br>
+      <label><input type="checkbox" name="product" value="gifts"> Gifts</label><br>
+      <label>Quantity: <input type="number" name="quantity" min="1" required></label><br>
+      <label>Special Requests: <textarea name="requests"></textarea></label><br>
+    </form>
+  </section>
+
+  <!-- Cart Summary -->
+  <section class="cart-summary">
+    <h2>Cart Summary</h2>
+    <p>Selected items will appear here with prices.</p>
+    <p><strong>Subtotal:</strong> $0.00</p>
+    <p><strong>Delivery Fee:</strong> $0.00</p>
+    <p><strong>Total:</strong> $0.00</p>
+    <button>Edit Cart</button>
+  </section>
+
+  <!-- Payment Options -->
+  <section class="payment-options">
+    <h2>Payment Options</h2>
+    <p>Select your preferred payment method:</p>
+    <label><input type="radio" name="payment" value="credit" required> Credit Card</label><br>
+    <label><input type="radio" name="payment" value="mobile"> Mobile Money</label><br>
+    <label><input type="radio" name="payment" value="paypal"> PayPal</label><br>
+    <button type="submit">Proceed to Payment</button>
+  </section>
+
+  <!-- Delivery Information -->
+  <section class="delivery-info">
+    <h2>Delivery Information</h2>
+    <p>We deliver across Nairobi and Kiambu.</p>
+    <p>Estimated delivery times: Same-day or Next-day.</p>
+    <p>Note: Holiday surcharges may apply. Orders must be placed before 3 PM for same-day delivery.</p>
+  </section>
+
+  <!-- Confirmation Section -->
+  <section class="confirmation">
+    <h2>Order Confirmation</h2>
+    <p>After submission, you’ll receive an order number and estimated delivery date.</p>
+    <p>You can print or save your confirmation for reference.</p>
+  </section>
+
+  <!-- Trust & Support -->
+  <section class="trust-support">
+    <h2>Trust & Support</h2>
+    <p>🌸 Your flowers are handled with care and delivered fresh.</p>
+    <p>For order support, contact us at <a href="tel:+254700000000">+254 700 000 000</a> or 
+       <a href="mailto:info@bloomandpetalhaven.com">info@bloomandpetalhaven.com</a>.</p>
+    <p>Need help? Visit our <a href="contact.html">Contact Page</a> or FAQ.</p>
+  </section>
+</main>
+
+
 
   <footer> 
     <p>Follow us on:
