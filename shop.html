@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+ <header>
+        <h1>BLOOM AND PATEL HAVEN</h1>
     <!-- Navigation Menu -->
-  <nav>
-    <ul>
+    <nav>
+       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="shop.html">Shop</a></li>
@@ -17,21 +19,59 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a href="order.html">Order</a></li>
         <li><a href="blog.html">Blog</a></li>
-    </ul>
-  </nav>   
+      </ul>
+    </nav>   
+  </header>
 
+  
+<main>
+  <section class="shop-intro">
+    <h2>Welcome to Our Shop</h2>
+    <p>Discover our wide range of flowers, plants, and gifts.<br>
+         Browse through our collection and find the perfect item for any occasion.</p>
+  </section>
 
+  <section class="product-list">
+    <h3>Our Products</h3>
+    <div class="shop-container">
+      <!-- Product Card 1 -->
+      <div class="card">
+        <img src="" alt="Flower Bouquet">
+        <h4>Flower Bouquet</h4>
+        <p>Elegant bouquet for special occasions.</p>
+        <span>$29.99</span>
+        <button onclick="addToCart('Flower Bouquet', 29.99)">Add to Cart</button>
+      </div>
 
+      <!-- Product Card 2 -->
+      <div class="card">
+        <img src="" alt="Indoor Plant">
+        <h4>Indoor Plant</h4>
+        <p>Fresh green plant to brighten your home.</p>
+        <span>$19.99</span>
+        <button onclick="addToCart('Indoor Plant', 19.99)">Add to Cart</button>
+      </div>
 
+      <!-- Product Card 3 -->
+      <div class="card">
+        <img src="" alt="Gift Box">
+        <h4>Gift Box</h4>
+        <p>Beautifully packaged floral gift set.</p>
+        <span>$39.99</span>
+        <button onclick="addToCart('Gift Box', 39.99)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
 
-
-
-
-
-
-
-
-
+  <!-- Cart Section -->
+  <section class="cart">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+    <button onclick="location.href='order.html'">Proceed to Checkout</button>
+  </section>
+</main>
+    
 
  <section class="page-button">
   <button onclick="location.href='order.html'">Place Your Order</button>
