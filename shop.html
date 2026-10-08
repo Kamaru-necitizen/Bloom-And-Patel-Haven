@@ -25,80 +25,421 @@
 
   
 <main>
-  <section class="shop-intro">
-    <h2>Welcome to Our Shop</h2>
-    <p>Discover our wide range of flowers, plants, and gifts.<br>
-         Browse through our collection and find the perfect item for any occasion.</p>
-  </section>
 
-  <section class="product-list">
-    <h3>Our Products</h3>
-    <div class="shop-container">
-      <!-- Product Card 1 -->
-      <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEFSjPRmi5BDnX0qUV-ilXyweoqrAIFEjdUh_qw4UlRA&s=10" alt="Flower Bouquet">
-        <h4>Flower Bouquet</h4>
-        <p>Elegant bouquet for special occasions.</p>
-        <span>$29.99</span>
-        <button onclick="addToCart('Flower Bouquet', 29.99)">Add to Cart</button>
-      </div>
+  <!-- Sub Navigation Bar -->
+  <nav class="sub-nav">
+  <ul>
+    <li><a href="flowers.html">Flowers</a></li>
+    <li><a href="vases.html">Vases</a></li>
+    <li><a href="cards.html">Cards</a></li>
+  </ul>
+</nav>
 
-      <!-- Product Card 2 -->
-      <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0QQ5ms6dayMzspqkhuVKOyqpSVMUHlrrgHOgoWDHynQ&s=10" alt="Indoor Plants">
-        <h4>Indoor Plant</h4>
-        <p>Fresh green plant to brighten your home.</p>
-        <span>$19.99</span>
-        <button onclick="addToCart('Indoor Plant', 19.99)">Add to Cart</button>
-      </div>
+<!-- Flowers Section -->
+<section id="flowers" class="flowers-section">
+  <!-- Sidebar -->
+  <aside class="flowers-sidebar">
+    <h3>Occasions</h3>
+    <ul>
+      <li><a href="#birthday">Birthday</a></li>
+      <li><a href="#romantic">Romantic</a></li>
+      <li><a href="#graduation">Graduation</a></li>
+      <li><a href="#anniversary">Anniversary</a></li>
+      <li><a href="#getwell">Get Well Soon</a></li>
+      <li><a href="#apology">Apology</a></li>
+      <li><a href="#sympathy">Sympathy</a></li>
+      <li><a href="#congratulations">Congratulations</a></li>
+    </ul>
+  </aside>
 
-      <!-- Product Card 3 -->
-      <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05vVbCzX25IjWPED7P8K6A0DcHa213Lie0IG1OHdRYA&s=10" alt="Gift Box">
-        <h4>Gift Box</h4>
-        <p>Beautifully packaged floral gift set.</p>
-        <span>$39.99</span>
-        <button onclick="addToCart('Gift Box', 39.99)">Add to Cart</button>
-      </div>
+  <!-- Product Grid -->
+  <div class="flowers-content">
+    <section id="birthday">
+      <h2>Birthday Flowers</h2>
+      <!-- Product cards will go here -->
+    </section>
 
-      <!-- Product Card 4 -->
-    <div class="card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAy26PK_rAQLVTX73_F1v9QlXhWoC1IifxshGXhD2KsQ&s=10" alt="Succulent Plant">
-      <h4>Succulent Plant</h4>
-      <p>Low-maintenance plant, perfect for desks.</p>
-      <span>$15.99</span>
-      <button onclick="addToCart('Succulent Plant', 15.99)">Add to Cart</button>
+    <section id="romantic">
+      <h2>Romantic Flowers</h2>
+      <!-- Product cards will go here -->
+    </section>
+
+    <!-- Repeat for other occasions -->
+  </div>
+</section>
+
+<!-- birthday occasion section -->
+<section id="birthday">
+  <h2>Birthday Flowers</h2>
+  <div class="product-grid">
+    <!-- Product Card 1 -->
+    <div class="product-card">
+      <img src="images/birthday-orchids.jpg" alt="Birthday Orchids">
+      <h3>Birthday Orchids</h3>
+      <p>KSH 3,000</p>
+      <button>Add to Cart</button>
+    </div>
+
+     <!-- Product Card 2 -->
+    <div class="product-card">
+      <img src="images/birthday-roses.jpg" alt="Birthday Roses">
+      <h3>Birthday Roses</h3>
+      <p>KSH 2,500</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="product-card">
+      <img src="images/birthday-mixed.jpg" alt="Mixed Birthday Bouquet">
+      <h3>Mixed Birthday Bouquet</h3>
+      <p>KSH 2,200</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- Product Card 4 -->
+    <div class="product-card">
+      <img src="images/birthday-tulips.jpg" alt="Birthday Tulips">
+      <h3>Birthday Tulips</h3>
+      <p>KSH 2,000</p>
+      <button>Add to Cart</button>
     </div>
 
     <!-- Product Card 5 -->
-    <div class="card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPENWFFnsfuOIK0THIKN4TSr6DRHJye8p-f2YwzlU0qg&s=10" alt="Tulip Bouquet">
-      <h4>Tulip Bouquet</h4>
-      <p>Colorful tulips to brighten any day.</p>
-      <span>$24.99</span>
-      <button onclick="addToCart('Tulip Bouquet', 24.99)">Add to Cart</button>
+    <div class="product-card">
+      <img src="images/birthday-sunflowers.jpg" alt="Birthday Sunflowers">
+      <h3>Birthday Sunflowers</h3>
+      <p>KSH 1,800</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- romantic occasion section  -->
+ <section id="romantic">
+  <h2>Romantic Flowers</h2>
+
+  <!-- product card 1 -->
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/romantic-orchids.jpg" alt="Romantic Orchids">
+      <h3>Romantic Orchids</h3>
+      <p>KSH 3,200</p>
+      <button>Add to Cart</button>
     </div>
 
-    <!-- Product Card 6 -->
-    <div class="card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0vQ6RxsGVqn9FSZc3fRHD9sKj5yFZ3mIAvn4UXQwDQ&s=10" alt="Orchid Arrangement">
-      <h4>Orchid Arrangement</h4>
-      <p>Exotic orchids arranged with elegance.</p>
-      <span>$49.99</span>
-      <button onclick="addToCart('Orchid Arrangement', 49.99)">Add to Cart</button>
+    <!-- product card 2 -->
+     <div class="product-card">
+      <img src="images/red-roses.jpg" alt="Red Roses">
+      <h3>Red Roses Bouquet</h3>
+      <p>KSH 3,000</p>
+      <button>Add to Cart</button>
     </div>
-    </div>
-  </section>
 
-  <!-- Cart Section -->
-  <section class="cart">
-    <h3>Your Cart</h3>
-    <ul id="cart-items"></ul>
-    <p>Total: $<span id="cart-total">0.00</span></p>
-    <button onclick="location.href='order.html'">Proceed to Checkout</button>
-  </section>
+    <!-- product card 3 -->
+     <div class="product-card">
+      <img src="images/romantic-lilies.jpg" alt="Romantic Lilies">
+      <h3>Romantic Lilies</h3>
+      <p>KSH 2,800</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 4 -->
+     <div class="product-card">
+      <img src="images/romantic-tulips.jpg" alt="Romantic Tulips">
+      <h3>Romantic Tulips</h3>
+      <p>KSH 2,500</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 5 -->
+     <div class="product-card">
+      <img src="images/romantic-mixed.jpg" alt="Romantic Mixed Bouquet">
+      <h3>Romantic Mixed Bouquet</h3>
+      <p>KSH 2,200</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- graduation occasion section -->
+ <section id="graduation">
+  <h2>Graduation Flowers</h2>
+  <div class="product-grid">
+    <!-- product card 1 -->
+     <div class="product-card">
+      <img src="images/graduation-orchids.jpg" alt="Graduation Orchids">
+      <h3>Graduation Orchids</h3>
+      <p>KSH 3,200</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 2 -->
+     <div class="product-card">
+      <img src="images/graduation-roses.jpg" alt="Graduation Roses">
+      <h3>Graduation Roses</h3>
+      <p>KSH 3,000</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 3 -->
+     <div class="product-card">
+      <img src="images/graduation-lilies.jpg" alt="Graduation Lilies">
+      <h3>Graduation Lilies</h3>
+      <p>KSH 2,800</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 4 -->
+     <div class="product-card">
+      <img src="images/graduation-tulips.jpg" alt="Graduation Tulips">
+      <h3>Graduation Tulips</h3>
+      <p>KSH 2,500</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 5 -->
+     <div class="product-card">
+      <img src="images/graduation-mixed.jpg" alt="Graduation Mixed Bouquet">
+      <h3>Graduation Mixed Bouquet</h3>
+      <p>KSH 2,200</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<!--anniversary flowers section -->
+ <section id="anniversary">
+  <h2>Anniversary Flowers</h2>
+  <div class="product-grid">
+    <!-- product card 1 -->
+     <div class="product-card">
+      <img src="images/anniversary-orchids.jpg" alt="Anniversary Orchids">
+      <h3>Anniversary Orchids</h3>
+      <p>KSH 3,200</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 2 -->
+     <div class="product-card">
+      <img src="images/anniversary-roses.jpg" alt="Anniversary Roses">
+      <h3>Anniversary Roses</h3>
+      <p>KSH 3,000</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 3 -->
+     <div class="product-card">
+      <img src="images/anniversary-lilies.jpg" alt="Anniversary Lilies">
+      <h3>Anniversary Lilies</h3>
+      <p>KSH 2,800</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 4 -->
+     <div class="product-card">
+      <img src="images/anniversary-tulips.jpg" alt="Anniversary Tulips">
+      <h3>Anniversary Tulips</h3>
+      <p>KSH 2,500</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 5 -->
+     <div class="product-card">
+      <img src="images/anniversary-mixed.jpg" alt="Anniversary Mixed Bouquet">
+      <h3>Anniversary Mixed Bouquet</h3>
+      <p>KSH 2,200</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<!--Get Well soon section -->
+ <section id="get-well-soon">
+  <h2>Get Well Soon Flowers</h2>
+  <div class="product-grid">
+    <!-- product card 1 -->
+     <div class="product-card">
+      <img src="images/get-well-soon-orchids.jpg" alt="Get Well Soon Orchids">
+      <h3>Get Well Soon Orchids</h3>
+      <p>KSH 3,200</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 2 -->
+     <div class="product-card">
+      <img src="images/get-well-soon-roses.jpg" alt="Get Well Soon Roses">
+      <h3>Get Well Soon Roses</h3>
+      <p>KSH 3,000</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 3 -->
+     <div class="product-card">
+      <img src="images/get-well-soon-lilies.jpg" alt="Get Well Soon Lilies">
+      <h3>Get Well Soon Lilies</h3>
+      <p>KSH 2,800</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 4 -->
+     <div class="product-card">
+      <img src="images/get-well-soon-tulips.jpg" alt="Get Well Soon Tulips">
+      <h3>Get Well Soon Tulips</h3>
+      <p>KSH 2,500</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 5 -->
+     <div class="product-card">
+      <img src="images/get-well-soon-mixed.jpg" alt="Get Well Soon Mixed Bouquet">
+      <h3>Get Well Soon Mixed Bouquet</h3>
+      <p>KSH 2,200</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<!--apology flowers section -->
+ <section id="apology">
+  <h2>Apology Flowers</h2>
+  <div class="product-grid">
+    <!-- product card 1 -->
+     <div class="product-card">
+      <img src="images/apology-orchids.jpg" alt="Apology Orchids">
+      <h3>Apology Orchids</h3>
+      <p>KSH 3,200</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 2 -->
+     <div class="product-card">
+      <img src="images/apology-roses.jpg" alt="Apology Roses">
+      <h3>Apology Roses</h3>
+      <p>KSH 3,000</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 3 -->
+     <div class="product-card">
+      <img src="images/apology-lilies.jpg" alt="Apology Lilies">
+      <h3>Apology Lilies</h3>
+      <p>KSH 2,800</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 4 -->
+     <div class="product-card">
+      <img src="images/apology-tulips.jpg" alt="Apology Tulips">
+      <h3>Apology Tulips</h3>
+      <p>KSH 2,500</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- product card 5 -->
+     <div class="product-card">
+      <img src="images/apology-mixed.jpg" alt="Apology Mixed Bouquet">
+      <h3>Apology Mixed Bouquet</h3>
+      <p>KSH 2,200</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<!--Sympathy flowers section  -->
+  <section id="sympathy">
+    <h2>Sympathy Flowers</h2>
+    <div class="product-grid">
+      <!-- product card 1 -->
+      <div class="product-card">
+        <img src="images/sympathy-orchids.jpg" alt="Sympathy Orchids">
+        <h3>Sympathy Orchids</h3>
+        <p>KSH 3,200</p>
+        <button>Add to Cart</button>
+      </div>
+  
+      <!-- product card 2 -->
+      <div class="product-card">
+        <img src="images/sympathy-roses.jpg" alt="Sympathy Roses">
+        <h3>Sympathy Roses</h3>
+        <p>KSH 3,000</p>
+        <button>Add to Cart</button>
+      </div>
+  
+      <!-- product card 3 -->
+      <div class="product-card">
+        <img src="images/sympathy-lilies.jpg" alt="Sympathy Lilies">
+        <h3>Sympathy Lilies</h3>
+        <p>KSH 2,800</p>
+        <button>Add to Cart</button>
+      </div>
+  
+      <!-- product card 4 -->
+      <div class="product-card">
+        <img src="images/sympathy-tulips.jpg" alt="Sympathy Tulips">
+        <h3>Sympathy Tulips</h3>
+        <p>KSH 2,500</p>
+        <button>Add to Cart</button>
+      </div>
+  
+      <!-- product card 5 -->
+      <div class="product-card">
+        <img src="images/sympathy-mixed.jpg" alt="Sympathy Mixed Bouquet">
+        <h3>Sympathy Mixed Bouquet</h3>
+        <p>KSH 2,200</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <!--congratulations flowers section -->
+    <section id="congratulations">
+      <h2>Congratulations Flowers</h2>
+      <div class="product-grid">
+        <!-- product card 1 -->
+        <div class="product-card">
+          <img src="images/congratulations-orchids.jpg" alt="Congratulations Orchids">
+          <h3>Congratulations Orchids</h3>
+          <p>KSH 3,200</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <!-- product card 2 -->
+        <div class="product-card">
+          <img src="images/congratulations-roses.jpg" alt="Congratulations Roses">
+          <h3>Congratulations Roses</h3>
+          <p>KSH 3,000</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <!-- product card 3 -->
+        <div class="product-card">
+          <img src="images/congratulations-lilies.jpg" alt="Congratulations Lilies">
+          <h3>Congratulations Lilies</h3>
+          <p>KSH 2,800</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <!-- product card 4 -->
+        <div class="product-card">
+          <img src="images/congratulations-tulips.jpg" alt="Congratulations Tulips">
+          <h3>Congratulations Tulips</h3>
+          <p>KSH 2,500</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <!-- product card 5 -->
+        <div class="product-card">
+          <img src="images/congratulations-mixed.jpg" alt="Congratulations Mixed Bouquet">
+          <h3>Congratulations Mixed Bouquet</h3>
+          <p>KSH 2,200</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+
 </main>
-    
 
  <section class="page-button">
   <button onclick="location.href='order.html'">Place Your Order</button>

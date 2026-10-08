@@ -130,16 +130,18 @@ ORDER PAGE SCRIPT
 BLOG PAGE SCRIPT
 ======================================*/
 
-function togglePost(id) {
+ function togglePost(id) {
   const post = document.getElementById(id);
+  const button = event.target; // the button that was clicked
+
   if (post.style.display === "none") {
-    post.style.display = "block"; // show the full content
+    post.style.display = "block";   // show the full content
+    button.textContent = "Read Less"; // change button text
   } else {
-    post.style.display = "none";  // hide it again
+    post.style.display = "none";    // hide it again
+    button.textContent = "Read More"; // revert button text
   }
 }
-
-
 
 
 
